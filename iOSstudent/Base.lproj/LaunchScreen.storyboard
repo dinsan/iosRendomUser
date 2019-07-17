@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" semanticContentAttribute="playback" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="title" translatesAutoresizingMaskIntoConstraints="NO" id="SGi-G2-cTN">
+                                <rect key="frame" x="60" y="48" width="300" height="218"/>
+                                <color key="tintColor" red="0.22232621908187866" green="0.28457748889923096" blue="0.36079546809196472" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="218" id="9Je-wT-UGz"/>
+                                    <constraint firstAttribute="width" constant="300" id="yzo-j6-Btx"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="LOORD DINSAN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="snu-Dv-bEG">
+                                <rect key="frame" x="121.5" y="265" width="185.5" height="39"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="0.78760647770000003" green="0.71925419570000004" blue="0.24296784399999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Software engineering 2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jnt-pk-kPS">
+                                <rect key="frame" x="105" y="841" width="208" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.22812178730964661" green="0.24256324768066406" blue="0.27059260010719299" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="userDinsan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aOr-cY-91g">
+                                <rect key="frame" x="144" y="312" width="144" height="41"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <color key="textColor" red="0.30122724179999999" green="0.66982531550000002" blue="0.70197230580000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93333959580000003" green="0.93332201240000001" blue="0.93333393340000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="SGi-G2-cTN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="4" id="6fN-MW-fi1"/>
+                            <constraint firstItem="snu-Dv-bEG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="221" id="ACx-7S-xvo"/>
+                            <constraint firstItem="Jnt-pk-kPS" firstAttribute="top" secondItem="snu-Dv-bEG" secondAttribute="bottom" constant="537" id="G1l-hC-BHc"/>
+                            <constraint firstItem="aOr-cY-91g" firstAttribute="top" secondItem="snu-Dv-bEG" secondAttribute="bottom" constant="8" id="MBp-v4-br3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aOr-cY-91g" secondAttribute="trailing" constant="54" id="MJ0-Rs-VPV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="snu-Dv-bEG" secondAttribute="trailing" constant="72" id="Z4f-9x-rDI"/>
+                            <constraint firstItem="Jnt-pk-kPS" firstAttribute="top" secondItem="SGi-G2-cTN" secondAttribute="bottom" constant="575" id="b2m-a4-qMN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SGi-G2-cTN" secondAttribute="trailing" constant="54" id="eDl-OZ-4tE"/>
+                            <constraint firstItem="Jnt-pk-kPS" firstAttribute="top" secondItem="aOr-cY-91g" secondAttribute="bottom" constant="488" id="t5a-rz-QZg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="title" width="862" height="604"/>
+    </resources>
+</document>
